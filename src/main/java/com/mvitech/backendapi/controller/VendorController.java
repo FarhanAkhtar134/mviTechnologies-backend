@@ -9,7 +9,7 @@ import org.springframework.web.bind.annotation.RestController;
 
 import java.util.List;
 
-@RestController("vendor")
+@RestController("vendors")
 public class VendorController {
 
     @Autowired
