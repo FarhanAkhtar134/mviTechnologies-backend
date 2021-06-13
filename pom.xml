@@ -14,7 +14,7 @@
 	<name>backend-api</name>
 	<description>backend REST api for mvitech</description>
 	<properties>
-		<java.version>11</java.version>
+		<java.version>14</java.version>
 	</properties>
 	<dependencies>
 		<dependency>
