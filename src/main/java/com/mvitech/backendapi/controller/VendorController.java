@@ -26,7 +26,7 @@ public class VendorController {
                                              @RequestParam(name = "range") List<String> range,
                                              @RequestParam(name = "filter") List<String> filter) {
         HttpHeaders headers = new HttpHeaders();
-        headers.add("Content-Range", "posts 0-1/1");
+        headers.add("Content-Range", "vendors 0-10/123");
         headers.add("Access-Control-Expose-Headers", "Content-Range");
 
 
