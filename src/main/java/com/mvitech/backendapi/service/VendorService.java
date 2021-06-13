@@ -19,15 +19,15 @@ public class VendorService {
         return vendorRepository.findAll();
     }
 
-    public  void save(Vendor vendor) {
+    public void save(Vendor vendor) {
         vendorRepository.save(vendor);
     }
 
-    public  Vendor get(Integer id) {
+    public Vendor get(Integer id) {
         return vendorRepository.findById(id).get();
     }
 
-    public  void delete(Integer id) {
+    public void delete(Integer id) {
         vendorRepository.deleteById(id);
     }
 }

@@ -42,10 +42,9 @@ public class VendorController {
     }
 
 
-    @PostMapping("/products")
-    public void add(@RequestBody Vendor product) {
-        //VendorService.save(product);
+    @PostMapping("/vendors")
+    public void saveVendor(@RequestBody Vendor vendor) {
+        vendorService.save(vendor);
     }
-
 
 }
